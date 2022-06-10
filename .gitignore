@@ -1,0 +1,8 @@
+src/
+vendor/
+node_modules/
+package.json
+package-lock.json
+webpack.dev.js
+webpack.prod.js
+.env

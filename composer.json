@@ -1,0 +1,22 @@
+{
+    "name": "oscar/chat",
+    "description": "Proyecto Chat MVC Websockets",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Models\\" : "application/models",
+            "Controllers\\" : "application/controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "ovelilla",
+            "email": "o.velillaa@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6.0",
+        "vlucas/phpdotenv": "^5.4.1",
+        "cboden/ratchet": "v0.4.4"
+    }
+}
